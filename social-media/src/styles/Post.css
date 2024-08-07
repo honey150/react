@@ -1,0 +1,16 @@
+.card {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.badges {
+  padding: 0.8rem;
+}
+
+.badge {
+  margin: 0 0.2rem;
+}
+
+.deleteBtn {
+  font-size: 1.3rem;
+}

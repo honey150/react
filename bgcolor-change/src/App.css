@@ -1,0 +1,71 @@
+.btn-container {
+  padding: 0.8rem;
+  margin: 0.8rem;
+  box-shadow: 0 0 0.2rem rgba(0,0,0,0.2);
+  position: fixed;
+  bottom: 0.7rem;
+  
+  border-radius: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  background-color: #fff;
+}
+
+body {
+  transition: 0.3s all;
+  
+}
+
+
+.btn {
+  padding: 0.2rem 0.5rem;
+  background-color: red;
+  color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 3px  rgba(0,0,0,0.1);
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.olive {
+  background-color: olive;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.yellow {
+  background-color: yellow;
+  color: #000;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.lavender {
+  background-color: lavender;
+  color: #141212;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.black {
+  background-color: black;
+}

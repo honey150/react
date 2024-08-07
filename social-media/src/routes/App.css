@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding-top: 2rem;
+}
+
+.btn-primary {
+ align-self: center;
+}
+
+.spinner {
+  margin: 2rem;
+}

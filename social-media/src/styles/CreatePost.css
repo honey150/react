@@ -1,0 +1,11 @@
+.newPost {
+  margin: 2rem 2rem 4rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.exampleFormControlTextarea1 {
+  resize: none;
+}

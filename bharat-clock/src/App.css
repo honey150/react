@@ -1,0 +1,9 @@
+h1, p {
+  text-align: center;
+}
+
+
+
+p >span {
+  font-weight: bold;
+}

@@ -1,0 +1,150 @@
+
+.search-sec {
+  margin: 25px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 310px;
+}
+
+.search-sec input {
+  width: 210px;
+  height: 35px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid skyblue;
+}
+
+input[placeholder] {
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.submit {
+  width: 90px;
+  border-radius: 6px;
+  background-color: deepskyblue;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 7px 0;
+}
+
+.card-container {
+  width: 310px;
+  height: 450px;
+  border: 2px solid #ee640c;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+  position: relative;
+}
+
+.person-info {
+  height: 60%;
+  background-color: #f2f1f7;
+  border-radius: 15px 15px 0 0;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.person-info img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: deepskyblue;
+  z-index: 20;
+}
+
+.person-details {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #484848;
+  line-height: 1.2rem;
+  margin-top: 5px;
+}
+
+.name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.user-id {
+  margin: 3px 0;
+  font-size: 0.8rem;
+}
+
+.hero-section {
+  height: 40%;
+  border-radius: 0 0 15px 15px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.github-score {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.first {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.second {
+  font-size: 0.73rem;
+  font-weight: 400;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  background-color: #ee640c;
+  color: #fff;
+  font-weight: 700;
+  margin: 16px auto;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.3s all;
+}
+
+.button a {
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #dd5d0c;
+}
+
+.social-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 15px;
+  font-size: 1.2rem;
+}
+
+.social-section .social-icon {
+  color: #484848;
+  font-size: 24px;
+  transition: all 0.3s;
+}
+
+.social-section .social-icon:hover {
+  fill: #ee640c;
+}
